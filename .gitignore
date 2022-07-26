@@ -1,0 +1,23 @@
+# dependencies
+/node_modules
+/car-rental-frontend/node_modules
+/car-rental-frontend/.pnp
+/car-rental-frontend/.pnp.js
+
+# testing
+/car-rental-frontend/coverage
+
+# production
+/car-rental-frontend/build
+
+# misc
+/car-rental-backend/config/config.env
+/car-rental-frontend/.DS_Store
+/car-rental-frontend/.env.local
+/car-rental-frontend/.env.development.local
+/car-rental-frontend/.env.test.local
+/car-rental-frontend/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
