@@ -1,12 +1,9 @@
 // import all images from assets/images directory
-import img01 from "../all-images/cars-img/nissan-offer.png";
-import img02 from "../all-images/cars-img/offer-toyota.png";
 import img03 from "../all-images/cars-img/bmw-offer.png";
-import img04 from "../all-images/cars-img/nissan-offer.png";
-import img05 from "../all-images/cars-img/offer-toyota.png";
 import img06 from "../all-images/cars-img/mercedes-offer.png";
+import img01 from "../all-images/cars-img/nissan-offer.png";
+import img05 from "../all-images/cars-img/offer-toyota.png";
 import img07 from "../all-images/cars-img/toyota-offer-2.png";
-import img08 from "../all-images/cars-img/mercedes-offer.png";
 
 const carData = [
   {
@@ -30,7 +27,7 @@ const carData = [
     brand: "Toyota",
     rating: 102,
     carName: "Toyota Aventador",
-    imgUrl: img02,
+    imgUrl: img03,
     model: "Model-2022",
     price: 50,
     speed: "20kmpl",
@@ -62,7 +59,7 @@ const carData = [
     brand: "Nissan",
     rating: 102,
     carName: "Nissan Mercielago",
-    imgUrl: img04,
+    imgUrl: img05,
     model: "Model-2022",
     price: 70,
     speed: "20kmpl",
@@ -126,7 +123,7 @@ const carData = [
     brand: "Colorado",
     rating: 52,
     carName: "Rolls Royce Colorado",
-    imgUrl: img08,
+    imgUrl: img07,
     model: "Model 3",
     price: 50,
     speed: "20kmpl",
