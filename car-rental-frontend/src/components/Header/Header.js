@@ -28,7 +28,7 @@ const navLinks = [
   },
 ];
 
-function Header() {
+const Header = () => {
   const menuRef = useRef(null);
 
   const toggleMenu = () => menuRef.current.classList.toggle("menu-active");
@@ -165,6 +165,6 @@ function Header() {
       </div>
     </header>
   );
-}
+};
 
 export default Header;

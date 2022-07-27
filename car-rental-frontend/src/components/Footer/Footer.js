@@ -32,7 +32,7 @@ const quickLinks = [
   },
 ];
 
-function Footer() {
+const Footer = () => {
   const date = new Date();
   const year = date.getFullYear();
   return (
@@ -116,6 +116,6 @@ function Footer() {
       </Container>
     </footer>
   );
-}
+};
 
 export default Footer;
