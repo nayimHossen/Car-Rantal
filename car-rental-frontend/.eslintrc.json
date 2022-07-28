@@ -14,6 +14,7 @@
   "plugins": ["react"],
   "rules": {
     "no-underscore-dangle": 0,
+    "no-shadow": 0,
     "jsx-a11y/tabindex-no-positive": 0,
     "no-unused-vars": 1,
     "import/no-duplicates": 0,
